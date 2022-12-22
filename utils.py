@@ -2,7 +2,7 @@ from models import Pessoas, Atividades
 
 #inseri dados na tabela pessoa
 def insere_pessoas():
-    pessoa = Pessoas(nome='Fernanda', idade= '41')
+    pessoa = Pessoas(nome='Daniel', idade='45')
     print(pessoa)
     pessoa.save()
 
@@ -25,7 +25,7 @@ def exclui_pessoa():
     pessoa.delete()
 
 if __name__ == '__main__':
-    #insere_pessoas()
+    insere_pessoas()
     #consulta_pessoas()
    #altera_pessoa()
     consulta_pessoas()
